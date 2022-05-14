@@ -1,0 +1,1067 @@
+[lang]
+Lang=Spanish (Latino Am rica)
+Ver=7.0
+
+#Espa ol Latinoamericano V16 Mar.02.Dic Dev-CPP 4.9.9.0
+#Maintainer: JRDíaz
+#Favor de mandar sus comentarios y sugerencias a jrdiaz.joven@hotmail.com
+#Si prefiere el espa ol castellano vea SpanishCastellano.lng y 
+SpanishCastellano.tips
+#Herramientas -> Opciones de entorno -> Interfaz -> Idioma
+
+#Updated by Nestor Acevedo 25 July 2009
+
+#Top level menus
+100=&Archivo
+101=&Edici n
+102=&Buscar
+103=&Ver
+104=&Proyecto
+105=E&jecutar
+106=&Herramientas
+107=Ve&ntana
+108=Ay&uda
+109=&Depurar
+
+#File menu
+120=&Nuevo
+121=&Proyecto...
+122=Archivo &Fuente
+123=Archivo de &Recurso
+124=Pla&ntilla...
+
+130=&Abrir Proyecto o Archivo
+131=&Reabrir
+132=&Limpiar Historial
+133=&Guardar
+134=Guardar C&omo...
+135=Guardar &Todo
+136=&Cerrar
+137=Cerrar Pro&yecto
+138=&Propiedades
+139=Grabar proyecto como...
+
+140=&Exportar
+141=A &HTML
+142=A &RTF
+143=&Proyecto a HTML
+
+149=I&mportar
+150=&Imprimir
+151=&Configurar Impresi n
+152=&Salir
+
+#Edit menu
+160=&Deshacer
+161=&Rehacer
+162=&Cortar
+163=&Copiar
+164=&Pegar
+165=&Seleccionar Todo
+166=&Borrar
+167=&Insertar
+168=&Marcadores de Posici n
+169=&Ir a Marcadores de Posici n
+170=Marcador
+171=&Fecha y Hora
+172=&Encabezado Comentario
+#Due to exhausted numbers, the Edit menu continues at 380...
+
+#Search menu
+175=&Buscar
+176=Bus&car en archivos
+177=&Reemplazar
+178=Buscar &Nuevamente
+179=&Ir a L nea
+180=&B squeda Incremental
+181=Ir a &Funci n
+
+#View menu
+182=Administrador de Proyectos Flotante
+183=Ir al Administrador de &Proyectos
+184=Ir al Navegador de &Clases
+185=&Navegador de Proyectos/Clases
+186=&Barra de Estado
+187=&Salida del Compilador
+188=Siempre &Visible
+189=S lo cuando se &Necesite
+190=Barra de &Herramientas
+3700=Mostrar Paneles
+3701=Mostrar Paneles de Plugins
+
+# Toolbar Captions
+191=&Principal
+192=&Compilar y Ejecutar
+193=Pro&yecto
+194=&Opciones
+195=&Especiales
+196=&Edici n
+197=&Buscar
+198=Ventana de reporte flotante
+
+#Project menu
+200=&Nuevo archivo fuente
+201=&A adir a Proyecto
+202=&Quitar del proyecto
+203=&Editar Archivo de Recursos
+204=Opciones de Pro&yecto
+205=Editar &Makefile
+206=Agregar Archivo de Recursos
+207=Remover Archivo de Recursos
+
+#Execute menu
+210=&Compilar
+211=&Ejecutar
+212=C&ompilar y Ejecutar
+213=&Reconstruir Todo
+214=&Limpiar Construcci n
+215=Re&sultados del Compilador
+216=Revisar Sinta&xis
+217=Reiniciar &Programa
+218=&An lisis Perfil de Ejecuci n
+219=Ca&ncelar Compilaci n
+
+#Tool menu
+220=Opciones del &Compilador
+221=Opciones de Entorno
+222=&Opciones del E&ditor
+223=Configurar &Herramientas
+224=Configurar &Teclas R pidas
+
+#Window menu
+230=Modo &Pantalla Completa
+231=Modo &Normal
+232=&Siguiente
+233=&Anterior
+234=&Cerrar Todo
+235=Pantalla completa de Dev-CPP %s. Presione Mayus-F12 para ver/ocultar 
+barra de herramientas. F12 para modo normal.
+236=Cerrar todos excepto este
+237=&Listar...
+
+#Help menu
+240=&Acerca de Dev-C++...
+241=A&ctualizaciones
+242=&Modificar Men  de Ayuda...
+243=&Ayuda en Dev-CPP
+
+#Debug Menu
+245=&Depurar
+246=Alternar Punto de Parada (&breakpoint)
+247=&Siguiente Paso
+248=&Pausar ejecuci n
+3710=&Continuar ejecuci n
+249=&A adir variable vigilada
+250=&Ver Variables
+251=&Detener Ejecuci n
+252=&Editar vigilancia
+253=&Remover vigilancia
+254=Entrar a &siguiente instrucci n
+255=&Ejecutar hasta el cursor
+256=Ver ve&ntana del CPU
+257=Pegar al proseso...
+258=Modificar valor
+259=Limpiar todo
+
+#context menus
+# project menu
+260=&Nuevo Archivo
+261=&A adir Archivo
+262=&Remover Archivo...
+263=&Opciones...
+264=&Editar Archivo de Recurso
+
+# unit menu
+270=&Remover Archivo
+271=&Renombrar Archivo
+272=&Cerrar
+273=&Abrir
+274=Abrir Ca&becera
+
+# class browser menu
+280=Ir a declaraci n
+281=Ir a implementaci n
+282=Nueva &Clase/Funci n
+283=Nueva &Funci n Miembro
+284=Nueva &Variable
+285=&Modo de visualizaci n...
+286=&Todos los archivos
+287=&Archivo actual
+288=A&gregar carpeta
+289=&Remover carpeta
+290=Re&nombrar carpeta
+291=No puede crear m s de %d carpetas en un proyecto...
+292=&Usar colores
+293=Archivos del proyecto
+294=Ver miembros derivados
+295=Abrir con...
+
+#Message control
+# sheets
+300=Compilador
+301=Recursos
+302=Registro de Compilaci n
+303=Resultados
+304=Cerrar
+305=Depuraci n
+306=Lista Por-Hacer
+
+# pop menu
+310=&Limpiar
+311=&Copiar
+312=&Ocultar
+313=&Abrir
+
+# column headers
+# 320, 322, 323 not in inc file
+315=L nea
+316=Archivo
+317=Mensaje
+318=Argumentos
+
+320=Encontrar L nea
+321=Col.
+322=Nombre de Variable
+323=Valor
+324=Informaci n:
+325=Registro de Compilaci n:
+326=Total de Errores:
+327=Tama o de Salida:
+
+#debug
+
+330=Variables vigiladas
+331=Retroseguimiento
+332=Salida
+333=Enviar comando a GDB
+334=Enviar
+
+# Specials toolbar items
+340=Nuevo
+341=Insertar
+342=Activar/Desactivar
+343=Ir a
+344=Ventana de Proyecto
+345=Ventana de Depuraci n
+
+#non-visible (open/save dialogs)
+350=Abrir Archivo
+351=Abrir Unidad
+352=Exportar a
+353=Guardar Archivo
+354=Guardar Proyecto
+355=Seleccionar Archivo de Ayuda
+
+357=Nueva Variable vigilancia
+358=Ingrese Nombre de Variable:
+359=Modificar Variable Watch
+360=Nuevo Nombre de Variable:
+
+370=Proyecto
+371=Clases(Funciones)
+
+380=Poner comentario
+381=Retirar comentario
+382=Indentar
+383=Suprimir Indentaci n
+384=Intercambiar encabezado/fuente
+
+#Editor Options Dialog 400-499
+400=Opciones del Editor
+401=Generales
+402=Visualizar
+403=Sintaxis
+404=C digo
+405=Auto Completar C digo
+406=Navegador de Clases(Funciones)
+
+#sub tabs
+410=Inserciones
+411=Fuente por omisi n
+
+# General Tab
+420=Opciones de Editor:
+421=Autoidentar
+422=Modo Insertar
+423=Usar Caracter Tabulador
+424=Tabuladores inteligentes
+425=Backspace quita indentaci n
+426=Conservar espacios a la derecha
+427=Agrupar Deshacer
+428=Tecla Home/Inicio mejorada
+429=Cursor Fin de Archivo r pido
+430=Cursor r pido fin de l nea
+431=L nea Doble Click
+432=Encontrar Texto desde el Cursor
+433=Barras de Desplazamiento cuando se nececites
+434=Desplazamiento Media P gina
+435=Ayuda de Scroll
+436=Usar Coloreo de Sintaxis
+437=Insertar Archivos Arrastrados
+438=Tama o de Tabulador:
+439=Margen Derecho
+440=Visible
+441=Ancho
+442=Color:
+443=Intercalaci n
+444=Insertar Intercalaci n
+445=Sobreescribir Intercalaci n
+446=L nea Vertical
+447=L nea Horizontal
+448=Medio Bloque
+449=Bloque
+450=Insertar Archivos Arrastrados
+451=Mostrar Caracteres ocultos en la L nea
+452=Mostrar Sugerencias del Editor
+453=Resaltar inicio y fin de par ntesis / llaves
+
+# through 459 for additions
+
+# Mostrar Tab
+460=Tipograf a del Editor:
+461=Tipograf a (Fuente)
+462=Tama o
+463=Tipograf a del Editor
+464=Encuadernaci n
+465=Tama o Autom tico
+466=N meros de L nea
+467=Mostrar Ceros a la Izquierda
+468=Comenzar en Cero
+469=Usar Tipograf a personalizada
+470=Tipograf a de Encuadernaci n
+
+# Syntax Tab
+471=Primer Plano
+472=Fondo
+473=Estilos
+474=Negrilla
+475=It lica
+476=Subrayada
+477=Ajustes R pidos de Color
+478=Tipo :
+479=Grabar ajustes personalizados de sintaxis
+419=Escriba el nombre para el archivo de ajustes:
+
+# Code Tab
+480=C digo
+481=Texto del Men 
+482=Secci n
+483=Descripci n
+484=Insertar C digo autom tico en Archivo Fuente de un Proyecto Vacio
+
+# Completion Tab
+485=Usar b fer para completar c digo
+486=Auto completar c digo
+487=Activar Auto Completar C digo
+488=Retardo (ms):
+489=Color de fondo:
+
+# Class browsing Tab
+490=Ajustes al Navegador de Clases
+491=Examinar archivos locales referenciados en cabeceras #include
+492=Muestra:
+493=Opciones del Buscador
+494=Opciones de Visualizaci n
+495=Activar Navegador de Clases
+496=Examinar archivos globales referenciados en cabeceras #include
+497=S lo mostrar clases del archivo activo
+
+#New project form
+500=Nuevo Proyecto
+501=Descripci n:
+502=Archivo:
+503=Nombre:
+504=En &C
+505=En C&++
+506=&Lenguaje por omisi n
+507=Misc.
+508=Opciones del proyecto
+
+#Remove file form
+520=Remover de Proyecto
+521=Seleccione Archivo a Remover del Proyecto :
+
+#Goto line form
+525=Ir a L nea ...
+526=Nueva L nea:
+
+#Tool config form
+530=Configuraci n de Herramientas
+531=Herramientas Actuales:
+
+#Edit Tool form
+535=Editar Entrada de Herramienta
+536=T tulo
+537=Programa
+538=Carpeta de Trabajo
+539=Par metros
+540=Insertar Macro
+541=Macros Disponibles
+
+#Icon Library Form
+545=Librer a de Iconos
+546=Usar Icono Seleccionado
+547=Examinar
+
+550=Configurar teclas r pidas
+551=Haga clic en un item y presione la tecla que desea asignar
+552=Presione tecla ESC para retirar una tecla
+553=Entrada del men 
+554=Tecla Asignada
+555=Cancelar
+556=Aceptar
+
+#Tool Menu Macros
+560=Devuelve Directorio por Omisi n
+561=Devuelve Directorio de Trabajo de Dev-Cpp
+562=Devuelve el Nombre de Archivo compilado
+563=Devuelve la Ruta del proyecto actual o el archivo fuente
+564=Devuelve el Nombre de archivo del proyecto actual o el archivo fuente
+565=Devuelve el "Nombre" del proyecto
+566=Devuelve el Nombre del archivo fuente actual
+567=Devuelve la Ruta del archivo fuente actual
+568=Devuelve Lista de Archivos del proyecto separados por espacios
+569=Devuelve la Palabra en el cursor en el editor activo
+570=Devuelve la Version de Dev-Cpp
+# -- TO 579
+
+#About form
+580=Acerca de Dev-Cpp :)
+581=inseculous@users.sourceforge.net
+582=Licencia P blica GPL de GNU
+583=Informaci n de Contacto
+584=Sitio web de Bloodshed Software:
+585=Sitio web del Compilador Mingw:
+586=Dev-Cpp foros de discusión:
+587=Dev-Cpp lista de correo:
+588=E-mail de los Autores:
+589=http://www.bloodshed.net
+590=http://www.mingw.org
+591=http://www.bloodshed.net/forum
+592=http://www.bloodshed.net/devcpp-ml.html
+593=haiku@bloodshed.net
+594=&Buscar Actualizaciones
+
+#Code Inserts Entry Edit form
+600=Editar entrada de c digo autom tico
+601=A adir entrada de c digo autom tico
+602=Nombre para el art culo en Men 
+603=Descripci n de Art culo
+604=Secci n de Men 
+
+#Environment options form
+606=Ventana de Proceso de Compilaci n
+607=&Ver durante la compilaci n
+608=&Cerrar autom ticamente luego de compilaci n
+609=No mostrar pantalla de Saludo
+610=Opciones de Entorno
+611=Generales
+612=Archivos y Directorios
+613=Auto Abrir
+614=C++ por Defecto al Abrir nuevo proyecto
+615=Mostrar Barra de Herramientas en Pantalla Completa
+616=Crear Archivos de Respaldo
+617=Minimizar al Ejecutar el Programa
+618=Estilo de di logo Abrir/Guardar
+619=Windows 2k (Barra lateral)
+620=Windows 9X
+621=Windows 3.1x
+622=Lenguaje:
+623=Fichas de la ventana de Mensaje:
+624=M x n mero de Archivos Men  Reabrir
+625=Directorio de Dev-CPP
+626=Directorio de Salida
+627=Ruta a Librer a de Iconos
+628=Imagen de Pantalla de Saludo
+629=Seleccionar Directorio por Defecto de Usuario
+630=Seleccionar Directorio de Salida del Compilador
+631=Seleccionar Directorio de Librerias de Iconos
+632=Todos los archivos del Proyecto
+633=S lo el primer archivo del proyecto
+634=Nada
+635=Mostrar Men  en Modo de Pantalla Completa
+636=Doble Click para Abrir Archivos del Administrador de Proyectos
+637=Ruta a los Archivos de Idiomas
+638=Tema:
+639=Interfaz
+
+
+#Find Form
+640=Buscar Texto
+641=Buscar
+642=Buscar en Archivos
+643=&Texto a Buscar
+644=Opciones:
+645=&Diferenciar Min s/May sculas
+646=&Palabras Completas Solamente
+647=Direcci n
+648=&Archivos en Proyecto
+649=Archivos Ab&iertos
+650=Alcance
+651=G&lobal
+652=S&eleccionados Solamente
+653=Origen
+654=Desde Cursor
+655=Alcance Completo
+656=Direcci n
+657=Adelante
+658=Atr s
+
+#Replace form
+670=Reemplazar Texto
+671=Texto a Buscar:
+672=Reemplazar Con:
+673=Opciones:
+674=&Diferenciar Min s/May sculas
+675=&Palabras Completas Solamente
+676=Pr&eguntar Reemplazo
+677=Direcci n:
+678=A&delante
+679=At&r s
+680=Alcance:
+681=G&lobal
+682=&Solamente Selecci n
+683=Origen:
+684=Desde C&ursor
+685=A&lcance Completo
+
+695=Buscar por
+696=Tipo
+697=Funci n
+698=L nea
+
+#Compiler Options
+700=Opciones de Compilaci n
+701=Compilador
+702=Directorios
+703=Generaci n/Optimizaci n de C digo
+704=Enlazador(linker)
+705=Programas
+
+710=Binarios
+711=Librer as
+712=Cabeceras C
+713=Cabeceras C++
+720=Compilador C:
+721=Compilador C++:
+722=Compilador:
+725=Soportar todos los programas en C ANSI Estandar
+726=Soportar Preprocesadores Tradicionales de C
+727=Desactivar todos los Mensajes de Aviso (Warnings)
+728=Desactivar todo el Chequeo de Acceso
+729=Aceptar $ en identificadores
+730=Usar Heur stica para compilar m s r pido
+731=Usar Compilador Cygwin en vez de Mingw
+732=A adir los siguientes comandos cuando llama al compilador
+733=Retardo para el Compilador
+734=Activa un Retraso en milisegs si Make notifica sobre la fecha del 
+archivo MAKEFILE
+735=Mostrar un error por l nea
+
+740=Generaci n de C digo:
+741=Optimizaci n:
+745=Activar Manejo de Excepciones
+746=Usar mismo tama o para tipo doble y flotante
+747=Poner comentarios de informaci n extra en c digo generado de ensamblador
+748=Optimizar
+749=Mejor Optimizaci n
+750=Realizar un n mero menor de optimizaciones
+751=Generaci n de archivo MAKEFILE
+752=Usar Generaci n de dependencias r pida pero imperfecta
+753=Estad sticas de eficiencia (profiling) del C digo
+754=Generar informaci n de Estad sticas An lisis de Perfil
+755=Enlazar un programa en formato 'Objective C'
+756=Generar Informaci n de Depuraci n
+757=No usar archivos o librer as est ndares en el arranque del programa
+758=No crear una ventana de consola
+759=A adir estos comandos a la l nea de comandos del linker
+760=No optimizar
+761=Optimizar m s
+
+770=Es posible cambiar los nombres de los programas que usa Dev-Cpp. (Por 
+ejemplo para usar un Cross Compiler).
+771=Paquete de Compilador a Configurar
+772=Nuevo Paquete de Compilador
+773=Ingrese el nombre para el nuevo Paquete de Compilador:
+774=No puede borrar el  nico Paquete de Compilador!
+775=Desea realmente borrar este Paquete de Compilador?
+776=Cambiar de nombre al Paquete de Compilador
+777=Ingrese el nuevo nombre para renombrar al Paquete de Compilaci n:
+778=M s optimizaciones
+
+#Help Editor Form
+780=Editor del Men  de Ayuda
+781=Texto de Men 
+782=Archivo de Ayuda
+783=Opciones en Men  de Ayuda
+784=Icono
+785=Secci n de Men 
+786=Secci n 1
+787=Secci n 2
+788=Men  Desplegable para Ayuda
+789=Acciones
+790=Buscar en Archivo de Ayuda por la palabra bajo el cursor
+791=Asignar la tecla r pida F1
+
+#Print File Form
+800=Imprimir Archivo
+801=Par metros:
+802=P ginas:
+803=&Colores
+804=&Resaltado
+805=&Cortar Palabras
+806=N meros de &L nea
+807=Imprimir N meros de L nea
+808=Imprimir N meros de L nea en Margen
+809=N mero de Copias:
+810=Imprimir Solamente Selecci n
+
+#Update Form
+820=Revisar Actualizaciones de Dev-C++
+821=Tarea:
+822=Resultados:
+823=Versi n de Liberaci n:
+824=Versi n necesaria para usar con:
+825=Descripci n de Liberaci n:
+826=Sitio de Descarga (doble click para bajar):
+
+830=Agregar a Tareas por Hacer
+831=Descripci n
+832=Prioridad
+833=Usuario
+
+835=Lista de "Tareas por Hacer"
+836=Nombre de archivo
+837=Realizado
+838=No mostrar items marcados como Realizado
+839=Filtro
+840=Todos los archivos (dentro y Fuera del proyecto)
+841=S lo abrir archivos (dentro y fuera del proyecto)
+842=Todos los archivos del proyecto
+843=Archivos abiertos solamente del proyecto
+844=Archivos abiertos que no son del proyecto
+845=Archivo actual solamente
+
+
+850=Proyecto MS Visual C++
+851=Seleccione archivo de proyecto VC++
+852=Opciones de Importaci n
+853=Configuraci n para importar
+854=Nombre de archivo para proyecto Dev-Cpp
+855=El archivo de proyecto MS VC++ ha sido importado y convertido a proyecto 
+Dev-Cpp.  Quiere abrirlo ahora?
+
+
+#Project Options form
+900=Opciones de Proyecto
+901=Generales
+902=Archivos/Directorios
+903=Nombre:
+904=Icono:
+905=Librer a
+906=Examinar
+907=Tipo:
+908=Win32 GUI gr fico
+909=Consola Win32
+910=Libreria Est tica Win32
+911=Librer a DLL Win32
+912=Compilar como C++
+913=Opciones Adicionales de L nea de Comando:
+914=Compilador:
+915=Opciones de Enlazador: Librer as u Objetos Opcionales
+916=Directorios de Librer as (.a .lib .dll)
+917=Archivos de recursos
+918=Directorios de Include
+919=Seleccionar Icono
+920=Incluir un Archivo de Objeto
+921=Directorios de recursos
+922=Opciones de Construcci n
+923=Directorios
+924=Directorio de salida para archivo ejecutable
+925=Directorio de salida para archivo objeto
+926=Sobreescribir archivo de salida
+927=Agregar Librer a u Objeto
+928=%d archivos [%d fuentes, %d cabeceras, %d recursos]
+
+#New template form
+930=Nombre:
+931=Descripci n:
+932=Categor a:
+933=Nombre del Nuevo Proyecto:
+934=Archivos en plantilla:
+935=Opciones extra para el Compilador:
+936=Opciones extra para el Enlazador:
+937=Iconos:
+938=Informaci n de la plantilla
+939=Archivos
+940=Extra(s)
+941=Icono de la plantilla
+942=Icono del nuevo proyecto
+943=Crear
+944=Nueva plantilla desde proyecto
+945=Use directorios Include del proyecto
+946=Use directorios de Librer as del proyecto
+947=Use directorios de Recursos del proyecto
+
+#New variable/member forms
+950=Tipo de retorno:
+951=Nombre de variable:
+952=Implementado en:
+953=Alcance del acceso:
+954=Crear funci n miembro para LEER desde esta variable
+955=Crear funci n miembro para ESCRIBIR a esta variable
+956=Nombre:
+957=Comentarios
+958=Descripci n:
+959=Estilo:
+960=Crear
+961=Cancelar
+962=Clase desconocida ...
+963=No se puede determinar el nombre de archivo para implementaci n ...
+964=No es posible deteminar el n mero de l nea para insertar c digo ...
+965=Nombre del miembro:
+966=Argumentos:
+967=Nombre de la clase:
+968=Heredar de otra clase
+969=Herencia
+970=Heredar desde clase:
+971=Nombre de archivo de encabezado:
+972=Nombre de archivo de Implementaci n:
+973=Nombre de archivo de encabezado:
+974=Agregar al proyecto actual
+975=Atributos
+
+#File properties form
+980=Nombre de archivo
+981=En proyecto
+982=Total de l neas
+983=L neas de c digo
+984=L neas de comentarios
+985=Archivos incluidos
+986=L neas vac as
+987=Tama o del archivo
+988=Absoluto
+989=Archivo MAKEFILE
+990=Relativo
+991=Fecha y Hora del Archivo
+992=Configuraci n para el compilador
+
+#Profile analysis form
+995=An lisis de Perfil de ejecuci n
+996=Salida plana
+997=Gr fico de llamadas
+
+#Global strings Ricardo Ortega O.
+# messages
+1000=Cadena de b squeda ''%s'' no encontrada
+1001=Archivo %s no pudo ser abierto
+1002=Reemplazar esta occurencia ''%s'?
+1003=Archivo: %s ya existe en %s
+1004= Desea realmente Cerrar %s?
+1005= Guardar cambios a %s?
+1006= Cerrar %s y comenzar nuevo proyecto?
+1007=Renombrar a:
+1008=Ya Compilando
+1009= Desea guardar Cambios a %s?
+1010=Archivo ya existe,  Sobreescribir?
+1011= A adir Nuevo Archivo al Proyecto?
+1012= A adir Nuevo Archivo de Recurso al Proyecto?
+1013=El proyecto no tiene informaci n para depuraci n.  Desea activar 
+depuraci n y recompilar el proyecto?
+1014=No ha habilitado An lisis Perfil de Ejecuci n y/o Depuraci n.  Desea 
+activar y recompilar el proyecto?
+1015=Debe Ejecutar el proyecto al menos una vez para que se genere 
+informaci n de An lisis Perfil ...
+1016=Ingrese nuevo nombre de carpeta:
+1017=Realmente desea borrar esta carpeta?
+1018=Ingrese el nuevo nombre de carpeta:
+1019=El archivo %s es s lo de lectura.  Desea cambiarlo a modo lectura y 
+escritura? Si no, el archivo no ser  grabado
+1020=Error: El archivo %s no fue cambiado a modo lectura y escritura y no 
+pudo ser grabado
+1021=Se ha producido una violaci n de acceso a memoria (fallo de 
+segmentaci n) en su programa
+1022=El archivo fuente es m s reciente que el ejecutable.  Desea reconstruir 
+el ejecutable?
+
+# errors
+1500=No se puede abrir Archivo %s
+1501=No se puede guardar Archivo %s
+1502=No se puede renombrar archivo %s
+1503=Campo de B squeda no puede estar vac o
+1504=El Proyecto no es Ejecutable
+1505=El Proyecto no est  Compilado
+1506=Archivo Fuente no Compilado
+1507=Archivo MAKE no encontrado
+1508=Fall  operaci n Limpiar
+1509=Plantilla no pudo ser puesta en el Proyecto
+1510=%s Recurso no encontrado: %s - %s
+1511=Archivo de Plantilla %s no encontrado, Saltando
+1512=No hay ninguna Plantilla Asignada
+1513=Archivo %s no encontrado
+1514=No se ha indicado Aplicaci n Anfitriona. Puede indicarla en el men  
+"Ejecutar / Argumentos".
+1515=Aplicaci n Anfitriona no encontrada! Puede indicarla en el men  
+"Ejecutar / Argumentos".
+
+# misc
+2000=Sin Nombre
+2001=S lo Lectura
+2002=Insertar
+2003=Sobreescribir
+2004=Proyecto %d
+2005=Por favor use otro nombre
+2006=%d L neas en Archivo
+2007=Renombrar Archivo
+2008=Ejecutando %s
+2009=Ejecuci n Terminada
+2010=Bytes
+2011=Modificado
+2012=Error:
+2013=Informaci n
+2014=Advertencia
+2015=Pregunta
+2016=Ejecuci n Terminada Sin Novedad
+2017=Compilaci n Cancelada por el Usuario
+
+# buttons
+2500=&Aceptar
+2501=&Cancelar
+2502=A&yuda
+2503=Por &Omisi n
+2504=&S 
+2505=&No
+2506=Añad&ir
+2507=&Editar
+2508=Re&mover
+2509=&Borrar
+2510=Ce&rrar
+2511=Au&tores
+2512=&Buscar
+2513=&Reemplazar
+2514=Borrar &Inv lido
+2515=Reemp&lazar Todo
+2516=E&xaminar
+
+2516=&Examinar
+2517=&Remover
+2518=Re&nombrar
+2519=&Importar
+2520=Modo Ventana
+2521=Limpiar
+
+# CPU Window RO
+2600=Ventana de CPU
+2601=C digo ensamblador :
+2602=Funci n :
+2603=Sintaxis ensamblador :
+2604=Registros :
+
+2700=Sugerencia del d a
+2701=Sabia Usted que...
+2702=...no hay sugerencias para mostrar
+2703=No mostrar Sugerencias del D a al iniciar este programa
+2704=Sig. sugerencia
+2705=Sugerencia ant.
+
+# Environment Options (more)
+2800=Asociaciones de Archivos
+2801=Tipos de archivos:
+2802=Active o desactive la marca para los tipos de archivos que Windows 
+abrir  autom ticamente con Dev-Cpp ...
+
+2803=Soporte CVS
+2804=Archivo de Programa CVS
+2805=Nivel de Compresi n
+2806=Usar SSH (seguro) en vez de RSH
+2807=Directorio de Plantillas
+2808=Seleccionar Directorio de Plantillas
+2809=Presentaci n modo XP
+2810=Programas externos
+2811=Programa externo
+2812=Extensi n
+2813=Asociaciones con programas externos:
+2814=Vigilar variable bajo el cursor del rat n
+2815=Reportar errores de vigilancia
+2816=Examinar variables de depuraci n
+2817=Archivo de configuraci n alterno
+2818=Usar este archivo de configuraci n alterno
+
+
+# Execute menu (more)
+2900=Argumentos del programa...
+2901=Compilar archivo actual
+
+# Window list
+2910=Lista de Ventanas
+2911=Seleccione la ventana que desea editar :
+
+# CVS Menu
+2990=Archivo actual...
+2991=Proyecto completo...
+2992=Configure soporte CVS en "Herramientas / Opciones de Entorno"...
+
+# CVS form
+3000=Opciones de Importación
+3001=Repositorio (Sitio de almacenamiento)
+3002=Opciones Globales
+3003=Opciones de Verificaci n
+3004=Opciones de Conclusi n (Commit)
+3005=Opciones de Actualizaci n
+3006=Opciones de Diferencias
+3007=Opciones de Registro de Sucesos
+3008=Salida CVS
+3009=Importar
+3010=Verificaci n
+3011=Conclusi n (Commit)
+3012=Actualizaci n
+3013=Diferencias
+3014=Registro de Sucesos
+3015=Directorio de Importaci n
+3016=Acci n
+3017=Vendedor
+3018=Versi n
+3019=Mensaje de Registro
+3020=Nombre del m dulo
+3021=Extensi n
+3022=Verifique como
+3023=Directorio de Verificaci n
+3024=Incluir subdirectorios
+3025=Reiniciar opciones agregadas
+3026=Crear directorios faltantes
+3027=Remover directorios vac os
+3028=Cancelar cambios realizados localmente
+3029=Antes de la fecha
+3030=Marca/Revisi n/Ramificaci n
+3031=Si no existe, obtenga el m s reciente
+3032=Otras revisiones
+3033=Ejecute un diff unificado
+3034=Compare archivo local con remoto misma revisi n/marca
+3035=Compare archivo local con remoto diferente revisi n
+3036=Compare dos revisiones remotas
+3037=Es fecha
+3038=Registre la ramificaci n por omisi n
+3039=Listar solo el nombre de archivo RCS
+3040=No muestre nombres de marcas
+3041=Filtro
+3042=Por revisi n/marca
+3043=Por Fecha
+3044=Por Usuario
+3045=Repositorio
+3046=Detalles
+3047=M todo de Acceso
+3048=Usuario
+3049=Servidor
+3050=Directorio remoto
+3051=Agregar
+3052=Remover
+3053=Opciones de Agregar
+3054=Opciones de Remover
+3055=Remover adem s del archivo del disco...
+
+# Params form
+3100=Argumentos para el programa
+3101=Argumentos para enviar al programa :
+3102=Aplicaci n Anfitriona :
+
+# Project options form (continued)
+3200=Archivos
+3201=Archivos de Proyecto:
+3202=Opciones de Proyecto:
+3203=Generar informaci n para depuraci n
+3204=Generar informaci n para perfilamiento
+3205=NOTA: Estas configuraciones se aplican solo a este proyecto y tienen 
+preferencia sobre las opciones globales del compilador
+3206=Soportar Modo Windows XP
+3207=Opciones de Archivo Fuente:
+3208=Incluir en compilaci n
+3209=Compilar Archivo Fuente como C++
+3210=Informaci n de Versi n
+3211=Incluir Informaci n de Versi n en Proyecto
+3212=Detalles de Versi n
+3213=Mayor:
+3214=Menor:
+3215=Actualizaci n (Release):
+3216=Construcci n (Build):
+3217=Lenguaje:
+3218=Informaci n Adicional:
+3219=Sobreponer a Comando de Construcci n
+3220=Archivo de Salida
+3221=Incluir en Enlace
+3222=Prioridad de Construcci n:
+3223=Auto-incrementar n mero de construcci n al compilar
+3224=Usar el Makefile de costumbre (no generar ninguno, usar  ste)
+3225=Informaci n acerca del Makefile de costumbre...
+3226=Incluir el siguiente archivo dentro del Makefile:
+
+
+
+3400=Tira ejecutable
+3401=Generar instrucciones para la m quina siguiente
+3402=Permitir el uso de las funciones específicas del prosesador
+
+# wx designer properties
+7000=Habilitado
+7001=Clase Base
+7002=Oculto
+7003=Predeterminado
+7004=Ayuda Contextual
+7005=ID Nombre
+7006=ID Valor
+7007=Sugerencia
+7008=Comentarios
+7009=Código validador
+7010=Color de Fondo
+7011=Color de Plano
+7012=Escala
+7013=Alineación
+7014=Borde
+7015=Bordes
+7016=Estilos Generales
+7017=Fuente
+7018=Nombre
+7019=Ancho
+7020=Alto
+7021=Izquierda
+7022=Superior
+7023=Propiedades
+7024=Eventos
+7025=Inspector de Propiedades
+7026=Componentes
+7027=Mostrar Inspector de Propiedades
+7028=Mostrar Paleta de Componentes
+7029=Nuevo wxDialog
+7030=Nuevo wxFrame
+7031=Editor de propiedades
+7032=Copiar el nombre del widget
+7033=Cambiar orden de creación
+7034=Seeccionar Padre
+7035=Bloquear control
+7036=Ver ID de los controles
+7037=Alineción
+7038=Fijar a Grilla
+7039=Vertical
+7040=Horizontal
+7041=A la izquierda
+7042=A la derecha
+7043=Al centro
+7044=Superior
+7045=Inferior
+7046=Opciones de diseño
+7047=Sizers
+7048=Common Controls
+7049=Containers
+7050=Toolbars
+7051=Menubars
+7052=Dialogs
+7053=Unofficial Controls
+7054=Flotante
+7055=Comportamiento
+7056=Cerrar cuando termina
+7057=&Borrar Línea
+7058=No puede cambiar ociones de diálogos de Abrir/Guardar en esta versión de Windows
+7059=Usar valores Enum individuales
+
+8000=There could be a problem with the resulted form. Using a text editor you may want to delete the declarations related to the next sentence from the file 
+
+

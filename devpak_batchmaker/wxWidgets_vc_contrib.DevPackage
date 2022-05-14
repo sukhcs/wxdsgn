@@ -1,0 +1,16 @@
+[Setup]
+Version=2
+AppName=wxWidgets Contribs MS VC _VC_VER_
+AppVerName=wxWidgets Contribs version _WXVER_ MS VC _VC_VER_
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets Contribs monolithic, unicode MS VC _VC_VER_ build
+Url=www.wxwidgets.org
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+contrib\\vc_lib=<app>\lib\vc_VC_VER_\
+[Icons]

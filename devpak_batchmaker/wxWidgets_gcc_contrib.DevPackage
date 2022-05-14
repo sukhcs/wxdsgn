@@ -1,0 +1,16 @@
+[Setup]
+Version=2
+AppName=wxWidgets Contribs MinGW gcc
+AppVerName=wxWidgets version _WXVER_ Contribs MinGW gcc
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets Contribs monolithic, unicode MinGW gcc build
+Url=www.wxwidgets.org
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+contrib\\gcc_lib=<app>\lib\
+[Icons]

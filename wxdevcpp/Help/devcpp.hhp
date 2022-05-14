@@ -1,0 +1,70 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=devcpp.chm
+Contents file=devcpp.hhc
+Default topic=html\Introduction.html
+Display compile progress=Yes
+Full-text search=Yes
+Index file=devcpp.hhk
+Language=0x409 English (United States)
+Title=Dev-C++ / wxDev-C++ Main Help File
+
+
+[FILES]
+html\add_remove_files.html
+html\Backtracing.html
+html\breakpoints.html
+html\compile_link_process.html
+html\cpu_windows.html
+html\creating_project.html
+html\credits.html
+html\debug_process.html
+html\displaying_variables.html
+html\executing_program.html
+html\getting_started.html
+html\gpl.html
+html\intro_debugging.html
+html\Introduction.html
+html\linking_libs.html
+html\managing_project_options.html
+html\packages.html
+html\profiling.html
+html\sample_debug_program.html
+html\stepping_debug.html
+html\Templates.html
+html\environ_cvs.html
+html\environ_fileassoc.html
+html\environ_filesdirs.html
+html\environ_general.html
+html\environ_interface.html
+html\compiler_compiler.html
+html\compiler_dirs.html
+html\compiler_programs.html
+html\compiler_settings.html
+html\compiler_wxwidgets.html
+html\shortcuts_action.html
+html\shortcuts_cursor.html
+html\shortcuts_delete.html
+html\shortcuts_designer.html
+html\shortcuts_modes.html
+html\shortcuts_scrolling.html
+html\shortcuts_selection.html
+html\forums.html
+html\faq.html
+html\configure_shortcuts.html
+html\editor_classbrowsing.html
+html\editor_code.html
+html\editor_codecompletion.html
+html\editor_display.html
+html\editor_general.html
+html\editor_options.html
+html\editor_syntax.html
+html\compiler_options.html
+html\designer_code.html
+html\designer_options.html
+html\todo.html
+html\multi-thread.html
+
+[INFOTYPES]
+

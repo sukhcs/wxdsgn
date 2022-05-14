@@ -1,0 +1,17 @@
+[Setup]
+Version=2
+AppName=wxWidgets Contribs common
+AppVerName=wxWidgets Contribs version _WXVER_ 
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets Contribs common include files
+Url=www.wxwidgets.org
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+contrib\\include=<app>\include\common\
+contrib\\samples=<app>\examples\wxWidgets\
+[Icons]

@@ -1,0 +1,192 @@
+package wxdsgn;
+
+{$R *.res}
+{$R '..\..\winxp.res'}
+{$R '..\..\icons.res'}
+{$R '..\..\DefaultFiles.res'}
+{$R '..\..\LangFrm.res'}
+{$R '..\..\STDREG.res'}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+{$DEFINE PLUGIN_BUILD}
+
+requires
+  vcl;
+
+contains
+  JclUnitVersioning,
+  JclSynch,
+  JclAnsiStrings,
+  JvResources,
+  JvConsts,
+  JvWin32,
+  JvTypes,
+  JvJCLUtils,
+  JvJVCLUtils,
+  JvProgressUtils,
+  JvAppStorage,
+  JvPropertyStore,
+  JvStrings,
+  JvComponentBase,
+  JVCLVer,
+  JvTranslateString,
+  JvBaseDlg,
+  JvThemes,
+  JvExControls,
+  JvComponent,
+  JvExForms,
+  JvExStdCtrls,
+  JvExGrids,
+  JvExMask,
+  JvDataSourceIntf,
+  JvCaret,
+  JvMaxPixel,
+  JvExExtCtrls,
+  JvAutoComplete,
+  JvExButtons,
+  JvPropertyStorage,
+  JvAppRegistryStorage,
+  JvAppIniStorage,
+  JvDsgnIntf,
+  JvDataProviderIntf in 'JvDataProviderIntf.pas',
+  JvExCheckLst in 'JvExCheckLst.pas',
+  JvDataProvider in 'JvDataProvider.pas',
+  JvTimer in 'JvTimer.pas',
+  JvCombobox in 'JvCombobox.pas',
+  JvItemsSearchs in 'JvItemsSearchs.pas',
+  JvCheckListBox in 'JvCheckListBox.pas',
+  JvAnimatedImage in 'JvAnimatedImage.pas',
+  JvGIFCtrl in 'JvGIFCtrl.pas',
+  JvGIF in 'JvGIF.pas',
+  JvAni in 'JvAni.pas',
+  JvIconList in 'JvIconList.pas',
+  JvStringHolder in 'JvStringHolder.pas',
+  JvButtons in 'JvButtons.pas',
+  JvHtControls in 'JvHtControls.pas',
+  JvSelectDirectory in 'JvSelectDirectory.pas',
+  JvInspector in 'JvInspector.pas',
+  JclShell in 'JclShell.pas',
+  JclFileUtils in 'JclFileUtils.pas',
+  JclSysUtils in 'JclSysUtils.pas',
+  JclConsole in 'JclConsole.pas',
+  JclResources in 'JclResources.pas',
+  JclBase in 'JclBase.pas',
+  JclStrings in 'JclStrings.pas',
+  JclLogic in 'JclLogic.pas',
+  JclWideStrings in 'JclWideStrings.pas',
+  JclMath in 'JclMath.pas',
+  Jcl8087 in 'Jcl8087.pas',
+  JclWin32 in 'JclWin32.pas',
+  JclDateTime in 'JclDateTime.pas',
+  JclSecurity in 'JclSecurity.pas',
+  JclSysInfo in 'JclSysInfo.pas',
+  Snmp in 'Snmp.pas',
+  JclRegistry in 'JclRegistry.pas',
+  JclIniFiles in 'JclIniFiles.pas',
+  JclRTTI in 'JclRTTI.pas',
+  JclMime in 'JclMime.pas',
+  JvFormPlacement in 'JvFormPlacement.pas',
+  JvWndProcHook in 'JvWndProcHook.pas',
+  JvBitBtn in 'JvBitBtn.pas',
+  JvDockControlForm in 'JvDockControlForm.pas',
+  JvDockSupportProc in 'JvDockSupportProc.pas',
+  JvDockGlobals in 'JvDockGlobals.pas',
+  JvDockInfo in 'JvDockInfo.pas',
+  JvDockVSNetStyle in 'JvDockVSNetStyle.pas',
+  JvDockSupportControl in 'JvDockSupportControl.pas',
+  JvDockTree in 'JvDockTree.pas',
+  JvDockAdvTree in 'JvDockAdvTree.pas',
+  JvDockSupportClass in 'JvDockSupportClass.pas',
+  JvDockVIDStyle in 'JvDockVIDStyle.pas',
+  JvEdit in 'JvEdit.pas',
+  JvFixedEditPopUp in 'JvFixedEditPopUp.pas',
+  JvToolEdit in 'JvToolEdit.pas',
+  JvBrowseFolder in 'JvBrowseFolder.pas',
+  JvPickDate in 'JvPickDate.pas',
+  JvSpeedButton in 'JvSpeedButton.pas',
+  JvButton in 'JvButton.pas',
+  JvComputerInfoEx in 'JvComputerInfoEx.pas',
+  SynMemo in 'SynMemo.pas',
+  SynEdit in 'SynEdit.pas',
+  SynCompletionProposal in 'SynCompletionProposal.pas',
+  SynEditKeyConst in 'SynEditKeyConst.pas',
+  SynEditMiscProcs in 'SynEditMiscProcs.pas',
+  SynHighlighterMulti in 'SynHighlighterMulti.pas',
+  SynEditStrConst in 'SynEditStrConst.pas',
+  SynRegExpr in 'SynRegExpr.pas',
+  SynEditHighlighter in 'SynEditHighlighter.pas',
+  SynEditCodeFolding in 'SynEditCodeFolding.pas',
+  SynEditMiscClasses in 'SynEditMiscClasses.pas',
+  SynEditTypes in 'SynEditTypes.pas',
+  SynEditTextBuffer in 'SynEditTextBuffer.pas',
+  SynEditKbdHandler in 'SynEditKbdHandler.pas',
+  SynEditKeyCmds in 'SynEditKeyCmds.pas',
+  SynEditWordWrap in 'SynEditWordWrap.pas',
+  SynTextDrawer in 'SynTextDrawer.pas',
+  madNVPrgrAlert in 'madNVPrgrAlert.pas',
+  madNVAssistant in 'madNVAssistant.pas',
+  madNVBitmap in 'madNVBitmap.pas',
+  madStrings in 'madStrings.pas',
+  madTypes in 'madTypes.pas',
+  madTools in 'madTools.pas',
+  madZip in 'madZip.pas',
+  madCrypt in 'madCrypt.pas',
+  madDisAsm in 'madDisAsm.pas',
+  madExcept in 'madExcept.pas',
+  madMapFile in 'madMapFile.pas',
+  madStackTrace in 'madStackTrace.pas',
+  ThemeMgr in 'ThemeMgr.pas',
+  UxTheme in 'UxTheme.pas',
+  ThemeSrv in 'ThemeSrv.pas',
+  jpeg in 'jpeg.pas',
+  JConsts in 'JConsts.pas',
+  Spin in 'Spin.pas',
+  FileCtrl in 'FileCtrl.pas',
+  CheckLst in 'CheckLst.pas',
+  XPMenu in 'XPMenu.pas',
+  ELDsgnr in 'ELDsgnr.pas',
+  ELSConsts in 'ELSConsts.pas',
+  ELControls in 'ELControls.pas',
+  ELUtils in 'ELUtils.pas',
+  ELPropInsp in 'ELPropInsp.pas',
+  ELStringsEdit in 'ELStringsEdit.pas',
+  CompFileIo in 'CompFileIo.pas',
+  CreateOrderFm in 'CreateOrderFm.pas' {CreationOrderForm},
+  Designerfrm in 'Designerfrm.pas' {frmNewForm},
+  DesignerOptions in 'DesignerOptions.pas' {DesignerForm},
+  dmCodeGen in 'dmCodeGen.pas',
+  dmCreateNewProp in 'dmCreateNewProp.pas' {frmCreateFormProp},
+  ComponentPalette in 'components\ComponentPalette.pas',
+  ViewIDForm in 'ViewIDForm.pas' {ViewControlIDsForm},
+  Wxcontrolpanel in 'components\Wxcontrolpanel.pas',
+  MigrateFrm in 'MigrateFrm.pas' {MigrateFrm},
+  wxdesigner in 'wxdesigner.pas',
+  wxeditor in 'wxeditor.pas',
+  wxversion in 'wxversion.pas',
+  WxUtils in 'components\wxUtils.pas',
+  xProcs in '..\..\xprocs.pas',
+  Hashes in '..\..\packages\Hashes.pas',
+  OpenSaveDialogs in '..\..\OpenSaveDialogs.pas';
+
+end.

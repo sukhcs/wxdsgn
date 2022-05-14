@@ -1,0 +1,16 @@
+[Setup]
+Version=2
+AppName=wxWidgets Contribs Digital Mars (dmc)
+AppVerName=wxWidgets Contribs version _WXVER_ Digital Mars (dmc)
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets Contribs monolithic, ansi Digital Mars build
+Url=www.wxwidgets.org
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+contrib\\dmc_lib=<app>\lib\dmars\
+[Icons]

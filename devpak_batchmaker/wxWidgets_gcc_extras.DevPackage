@@ -1,0 +1,15 @@
+[Setup]
+Version=2
+AppName=wxWidgets Extras MinGW gcc
+AppVerName=wxWidgets version _WXVER_ 3rd Party Components Mingw gcc
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets 3rd Party Components monolithic, unicode MinGW gcc build
+Url=http://WxCode.Sourceforge.net
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+extras\\gcc_lib=<app>\lib\

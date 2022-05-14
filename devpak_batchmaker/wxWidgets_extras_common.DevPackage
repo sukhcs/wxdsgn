@@ -1,0 +1,17 @@
+[Setup]
+Version=2
+AppName=wxWidgets Extras common
+AppVerName=wxWidgets version _WXVER_ 3rd Party Components
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets 3rd Party Components common include files
+Url=http://WxCode.Sourceforge.net
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+extras\\samples\\chartart\\wxchart.rc=<app>\include\3rdparty\
+extras\\include=<app>\include\3rdparty\
+extras\\samples=<app>\examples\wxWidgets\

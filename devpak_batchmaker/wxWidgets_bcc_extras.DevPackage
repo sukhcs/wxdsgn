@@ -1,0 +1,15 @@
+[Setup]
+Version=2
+AppName=wxWidgets Extras Borland
+AppVerName=wxWidgets version _WXVER_ 3rd Party Components Borland
+AppVersion=_WXVER_
+MenuName=
+Description=wxWidgets 3rd Party Components monolithic, ansi Borland build
+Url=http://WxCode.Sourceforge.net
+Readme=docs\readme.txt
+License=docs\licence.txt
+Picture=
+Dependencies=
+Reboot=0
+[Files]
+extras\\bcc_lib=<app>\lib\bcc\
